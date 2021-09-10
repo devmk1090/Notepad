@@ -15,7 +15,7 @@ namespace Notepad.Models
         }
 
         private string _filePath;
-        private string FilePath
+        public string FilePath
         {
             get { return _filePath; }
             set { OnPropertyChanged(ref _filePath, value); }
